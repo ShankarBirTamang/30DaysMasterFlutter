@@ -78,20 +78,20 @@
 
 
 
-//Example of substring()
-void main() { 
-   String text = "i love computer"; 
-   print("Print only computer: ${text.substring(7)}"); // from index 6 to the last index 
-   print("Print only love: ${text.substring(2,6)}");// from index 2 to the 6th index 
+// Example of substring()
+// void main() { 
+//    String text = "i love computer"; 
+//    print("Print only computer: ${text.substring(7)}"); // from index 6 to the last index 
+//    print("Print only love: ${text.substring(2,6)}");// from index 2 to the 6th index 
 
-    //reverse string
-    print(text.split('').reversed.join());
-    print(text.substring(7).split('').reversed.join());
-    print(text.substring(2,6).split('').reversed.join());
+//     //reverse string
+//     print(text.split('').reversed.join());
+//     print(text.substring(7).split('').reversed.join());
+//     print(text.substring(2,6).split('').reversed.join());
 
-    //capitalizing first letter
-    print(text[0].toUpperCase()+text.substring(1));
-} 
+//     //capitalizing first letter
+//     print(text[0].toUpperCase()+text.substring(1));
+// } 
 
 
 
