@@ -57,7 +57,6 @@ void main() async{
 }
 
 Future<String> getAsyncData(String operation,Duration delay) {
-  print(operation+delay.toString());
   return Future.delayed(delay, () =>"Result of $operation");
 }
 
