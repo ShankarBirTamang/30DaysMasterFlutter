@@ -1,0 +1,5 @@
+name: owlProject
+environment:
+  sdk: '^3.0.0'
+dependencies:
+  owlbot_dart: ^2.0.0
