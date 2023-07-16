@@ -27,14 +27,14 @@ class _UserProfileScreenState extends State<UserProfileScreen> {
       appBar: AppBar(
         title: const Text(
           'Random Profile',
-          style: TextStyle(fontWeight: FontWeight.w700),
+          style: TextStyle(fontWeight: FontWeight.w800 , color: Colors.yellow ),
         ),
         actions: [
           IconButton(
             onPressed: () {
               presenter.getUser();
             },
-            icon: const Icon(Icons.refresh),
+            icon: const Icon(Icons.explore), //refresh
           ),
         ],
       ),
